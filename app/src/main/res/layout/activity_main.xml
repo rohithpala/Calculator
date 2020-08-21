@@ -17,28 +17,31 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
         <TextView
-            android:id="@+id/data"
+            android:id="@+id/input"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:text="10+10"
             android:gravity="end|bottom"
             android:textColor="@color/colorWhite"
             android:background="#1D1D1D"
             android:textSize="20sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
         <TextView
             android:id="@+id/output"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:text="20"
             android:gravity="end|center"
             android:textColor="@color/colorWhite"
             android:background="#1D1D1D"
             android:textSize="30sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
 
-
-    </LinearLayout>
+    </LinearLayout>t>
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -58,53 +61,73 @@
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
-                android:text="sin"
+                android:text="@string/sin"
+                android:textAllCaps="false"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:background="@color/colorOrange"
                 />
-
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"/>
             <Button
                 android:id="@+id/cosine"
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
-                android:text="cos"
+                android:text="@string/cos"
+                android:textAllCaps="false"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:background="@color/colorOrange"
                 />
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"/>
             <Button
                 android:id="@+id/tangent"
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
-                android:text="tan"
+                android:text="@string/tan"
+                android:textAllCaps="false"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:background="@color/colorOrange"
                 />
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"/>
             <Button
                 android:id="@+id/log"
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
-                android:text="log"
+                android:text="@string/log"
+                android:textAllCaps="false"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:background="@color/colorOrange"
                 />
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"/>
             <Button
                 android:id="@+id/ln"
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
-                android:text="ln"
+                android:text="@string/lon"
+                android:textAllCaps="false"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:background="@color/colorOrange"
                 />
         </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -120,6 +143,9 @@
                 android:textSize="20sp"
                 android:background="@color/colorOrange"
                 />
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"/>
             <Button
                 android:id="@+id/closing_bracket"
                 android:layout_width="0dp"
@@ -130,6 +156,9 @@
                 android:textSize="20sp"
                 android:background="@color/colorOrange"
                 />
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"/>
             <Button
                 android:id="@+id/power"
                 android:layout_width="0dp"
@@ -140,6 +169,9 @@
                 android:textSize="20sp"
                 android:background="@color/colorOrange"
                 />
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"/>
             <Button
                 android:id="@+id/square_root"
                 android:layout_width="0dp"
@@ -150,6 +182,9 @@
                 android:textSize="20sp"
                 android:background="@color/colorOrange"
                 />
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"/>
             <Button
                 android:id="@+id/factorial"
                 android:layout_width="0dp"
@@ -162,6 +197,10 @@
                 />
         </LinearLayout>
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -171,52 +210,72 @@
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
-                android:text="PIE"
+                android:text="@string/pie"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:background="@color/colorOrange"
                 />
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"/>
             <Button
                 android:id="@+id/NLe"
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
-                android:text="e"
+                android:text="@string/e"
+                android:textAllCaps="false"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:background="@color/colorOrange"
                 />
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"/>
             <Button
                 android:id="@+id/inverse"
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
-                android:text="INV"
+                android:text="@string/inverse"
+                android:textAllCaps="false"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:background="@color/colorOrange"
                 />
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"/>
             <Button
                 android:id="@+id/radians"
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
-                android:text="RAD"
+                android:text="@string/radians"
+                android:textAllCaps="false"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:background="@color/colorOrange"
                 />
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"/>
             <Button
                 android:id="@+id/degrees"
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
-                android:text="DEG"
+                android:text="@string/degree"
+                android:textAllCaps="false"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:background="@color/colorOrange"
                 />
         </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -227,22 +286,27 @@
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
-                android:text="C"
+                android:text="@string/clear"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:background="@drawable/ripple_effect_numbers"
                 />
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"/>
             <Button
                 android:id="@+id/percentage"
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
-                android:text="%"
+                android:text="@string/percentage"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:background="@drawable/ripple_effect_numbers"
                 />
-
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"/>
             <Button
                 android:id="@+id/backspace"
                 android:layout_width="0dp"
@@ -251,20 +315,25 @@
                 android:text="@string/BACKSPACE"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
-                android:background="@drawable/ripple_effect_numbers"
-                />
+                android:background="@drawable/ripple_effect_numbers"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"/>
             <Button
                 android:id="@+id/division"
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
-                android:text="/"
+                android:text="@string/division"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:background="@drawable/ripple_effect_operations"
                 />
         </LinearLayout>
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -275,43 +344,55 @@
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
-                android:text="7"
+                android:text="@string/seven"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:background="@drawable/ripple_effect_numbers"
                 />
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"/>
             <Button
                 android:id="@+id/number8"
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
-                android:text="8"
+                android:text="@string/eight"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:background="@drawable/ripple_effect_numbers"
                 />
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"/>
             <Button
                 android:id="@+id/number9"
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
-                android:text="9"
+                android:text="@string/nine"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:background="@drawable/ripple_effect_numbers"
                 />
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"/>
             <Button
                 android:id="@+id/multiplication"
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
-                android:text="X"
+                android:text="@string/multiplication"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:background="@drawable/ripple_effect_operations"
                 />
         </LinearLayout>
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -322,43 +403,55 @@
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
-                android:text="4"
+                android:text="@string/four"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:background="@drawable/ripple_effect_numbers"
                 />
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"/>
             <Button
                 android:id="@+id/number5"
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
-                android:text="5"
+                android:text="@string/five"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:background="@drawable/ripple_effect_numbers"
                 />
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"/>
             <Button
                 android:id="@+id/number6"
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
-                android:text="6"
+                android:text="@string/six"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:background="@drawable/ripple_effect_numbers"
                 />
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"/>
             <Button
                 android:id="@+id/substraction"
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
-                android:text="_"
+                android:text="@string/minus"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:background="@drawable/ripple_effect_operations"
                 />
         </LinearLayout>
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -369,43 +462,55 @@
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
-                android:text="1"
+                android:text="@string/one"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:background="@drawable/ripple_effect_numbers"
                 />
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"/>
             <Button
                 android:id="@+id/number2"
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
-                android:text="2"
+                android:text="@string/two"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:background="@drawable/ripple_effect_numbers"
                 />
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"/>
             <Button
                 android:id="@+id/number3"
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
-                android:text="3"
+                android:text="@string/three"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:background="@drawable/ripple_effect_numbers"
                 />
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"/>
             <Button
                 android:id="@+id/addition"
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
-                android:text="+"
+                android:text="@string/addition"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:background="@drawable/ripple_effect_operations"
                 />
         </LinearLayout>
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -416,37 +521,46 @@
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
-                android:text="00"
+                android:text="@string/double_zero"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:background="@drawable/ripple_effect_numbers"
                 />
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"/>
             <Button
                 android:id="@+id/number0"
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
-                android:text="0"
+                android:text="@string/zero"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:background="@drawable/ripple_effect_numbers"
                 />
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"/>
             <Button
                 android:id="@+id/dot"
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
-                android:text="."
+                android:text="@string/dot"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:background="@drawable/ripple_effect_numbers"
                 />
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"/>
             <Button
                 android:id="@+id/equal"
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
-                android:text="="
+                android:text="@string/equal_to"
                 android:textColor="@color/colorBlack"
                 android:textSize="20sp"
                 android:background="@color/colorWhite"
