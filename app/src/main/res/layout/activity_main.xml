@@ -16,6 +16,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
         <TextView
             android:id="@+id/input"
             android:layout_width="match_parent"
@@ -41,7 +44,8 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"/>
 
-    </LinearLayout>t>
+    </LinearLayout>
+
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -55,7 +59,22 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="@string/scientific_calculator"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
             <Button
                 android:id="@+id/sine"
                 android:layout_width="0dp"
@@ -211,6 +230,7 @@
                 android:layout_height="60dp"
                 android:layout_weight="1"
                 android:text="@string/pie"
+                android:textAllCaps="false"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:background="@color/colorOrange"
@@ -566,6 +586,10 @@
                 android:background="@color/colorWhite"
                 />
         </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

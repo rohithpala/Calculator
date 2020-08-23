@@ -18,7 +18,7 @@
     <string name="seven">7</string>
     <string name="eight">8</string>
     <string name="nine">9</string>
-    <string name="multiplication">X</string>
+    <string name="multiplication">*</string>
     <string name="four">4</string>
     <string name="five">5</string>
     <string name="six">6</string>
@@ -31,4 +31,9 @@
     <string name="zero">0</string>
     <string name="dot">.</string>
     <string name="equal_to">=</string>
+    <string name="scientific_calculator">SCIENTIFIC CALCULATOR :</string>
+    <string name="yes">Yes, Clear</string>
+    <string name="no">No, Don\'t Clear</string>
+    <string name="title">Alert Dialog</string>
+    <string name="message">Do You Want To Clear ?</string>
 </resources>
