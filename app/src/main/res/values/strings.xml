@@ -36,4 +36,8 @@
     <string name="no">No, Don\'t Clear</string>
     <string name="title">Alert Dialog</string>
     <string name="message">Do You Want To Clear ?</string>
+    <string name="opeing_bracket">(</string>
+    <string name="closing_bracket">)</string>
+    <string name="power">^</string>
+    <string name="factorial">!</string>
 </resources>

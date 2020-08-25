@@ -19,15 +19,16 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"/>
+
         <TextView
             android:id="@+id/input"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
+            android:background="#1D1D1D"
             android:gravity="end|bottom"
             android:textColor="@color/colorWhite"
-            android:background="#1D1D1D"
-            android:textSize="20sp"/>
+            android:textSize="20sp" />
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"/>
@@ -157,7 +158,7 @@
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
-                android:text="("
+                android:text="@string/opeing_bracket"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:background="@color/colorOrange"
@@ -170,7 +171,7 @@
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
-                android:text=")"
+                android:text="@string/closing_bracket"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:background="@color/colorOrange"
@@ -183,7 +184,7 @@
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
-                android:text="^"
+                android:text="@string/power"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:background="@color/colorOrange"
@@ -209,7 +210,7 @@
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
-                android:text="!"
+                android:text="@string/factorial"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:background="@color/colorOrange"
