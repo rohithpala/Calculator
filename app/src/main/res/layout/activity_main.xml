@@ -11,41 +11,39 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:orientation="vertical"
-        android:weightSum="2"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-        <View
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="1dp"/>
+            android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/input"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#1D1D1D"
+                android:gravity="end|bottom"
+                android:textColor="@color/colorWhite"
+                android:textSize="30sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+            <TextView
+                android:id="@+id/output"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="end|center"
+                android:textColor="@color/colorWhite"
+                android:background="#1D1D1D"
+                android:textSize="30sp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
 
-        <TextView
-            android:id="@+id/input"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:background="#1D1D1D"
-            android:gravity="end|bottom"
-            android:textColor="@color/colorWhite"
-            android:textSize="20sp" />
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"/>
-        <TextView
-            android:id="@+id/output"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:gravity="end|center"
-            android:textColor="@color/colorWhite"
-            android:background="#1D1D1D"
-            android:textSize="30sp"/>
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"/>
-
-    </LinearLayout>
+            </LinearLayout>
 
 
     <LinearLayout
@@ -61,7 +59,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -197,7 +197,7 @@
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
-                android:text="@string/Square_Root"
+                android:text="@string/square_root"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:background="@color/colorOrange"
@@ -262,8 +262,7 @@
                 android:textAllCaps="false"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
-                android:background="@color/colorOrange"
-                />
+                android:background="@color/colorOrange" />
             <View
                 android:layout_width="2dp"
                 android:layout_height="match_parent"/>
@@ -274,7 +273,7 @@
                 android:layout_weight="1"
                 android:text="@string/radians"
                 android:textAllCaps="false"
-                android:textColor="@color/colorWhite"
+                android:textColor="#000000"
                 android:textSize="20sp"
                 android:background="@color/colorOrange"
                 />
@@ -292,6 +291,7 @@
                 android:textSize="20sp"
                 android:background="@color/colorOrange"
                 />
+
         </LinearLayout>
 
         <View
@@ -333,10 +333,9 @@
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
-                android:text="@string/BACKSPACE"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
-                android:background="@drawable/ripple_effect_numbers"/>
+                android:background="@drawable/backspace"/>
             <View
                 android:layout_width="2dp"
                 android:layout_height="match_parent"/>

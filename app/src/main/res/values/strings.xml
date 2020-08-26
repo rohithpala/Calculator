@@ -1,14 +1,20 @@
 <resources>
     <string name="app_name">Calculator</string>
     <string name="BACKSPACE"><![CDATA[<--]]></string>
-    <string name="Square_Root">√</string>
+    <string name="square_root">√</string>
+    <string name="square_root_Inverse">x<sup>2</sup></string>
     <string name="pie">π</string>
     <string name="e">e</string>
     <string name="sin">sin</string>
+    <string name="sin_inverse">sin<sup>-1</sup></string>
     <string name="cos">cos</string>
+    <string name="cos_inverse">cos<sup>-1</sup></string>
     <string name="tan">tan</string>
+    <string name="tan_inverse">tan<sup>-1</sup></string>
     <string name="log">log</string>
+    <string name="log_inverse">10^</string>
     <string name="lon">ln</string>
+    <string name="lon_inverse">e<sup>x</sup></string>
     <string name="inverse">inv</string>
     <string name="radians">rad</string>
     <string name="degree">deg</string>
@@ -40,4 +46,5 @@
     <string name="closing_bracket">)</string>
     <string name="power">^</string>
     <string name="factorial">!</string>
+    <string name="non_inv">non inv</string>
 </resources>
